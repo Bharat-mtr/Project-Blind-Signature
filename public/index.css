@@ -107,14 +107,32 @@ button input {
   cursor: default;
 }
 
-.link {
-  font-size: 20px;
-  margin-top: 30px;
+a {
+  font-weight: 1500;
 }
 
-.link a {
-  color: #000;
-  font-size: 25px;
+a:link {
+  color: #6c63ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #a09bf9;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3b31f8;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .console ul {
